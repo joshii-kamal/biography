@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accomplishments</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Redressed&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            /* background-color: rgb(0, 0, 0); */
+            overflow-x: hidden;
+
+        }
+
+        body::before {
+            content: "";
+            background-image: url('./images/acc.jpg');
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            z-index: -10;
+            background-repeat: no-repeat;
+            margin-left: 50px;
+        }
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .bg {
+            position: absolute;
+            z-index: -1;
+        }
+
+        .navigator {
+            display: flex;
+            background-color: white;
+            font-family: 'Langar', cursive;
+            font-size: small;
+            /* top: -27px; */
+            position: relative;
+            font-weight: bold;
+        }
+
+        .navigator .imgg img {
+            border-radius: 50px;
+            height: 45px;
+            width: 45px;
+        }
+
+        .navigator ul {
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+        }
+
+        .navigator ul a {
+            list-style-type: none;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            margin-right: 43px;
+            display: flex;
+            width: 143px;
+            border-radius: 16px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .navigator li a:hover {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+
+        .tag {
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            position: fixed;
+            bottom: 6px;
+            right: 50px;
+            border-radius: 9px;
+            width: 150px;
+            text-align: center;
+        }
+
+        .heading {
+            display: flex;
+            top: 60px;
+            left: 260px;
+            position: absolute;
+            border-radius: 20px;
+            width: 120px;
+            justify-content: center;
+            color: white;
+            font-size: 50px;
+            font-weight: lighter;
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Indie Flower', cursive;
+            font-family: 'Redressed', cursive;
+        }
+
+        .list1 li {
+            background-color: white;
+            display: grid;
+            margin-top: 10px;
+            grid-template-columns: 500px;
+            width: 500px;
+            margin-left: 700px;
+            border-radius: 20px;
+            padding: 10px;
+            transition: all 1s ease-in-out;
+
+        }
+
+        .list1 {
+            margin-top: 50px;
+            font-size: 18px;
+            font-family: 'Langar', cursive;
+        }
+        .list1 ul li:hover{
+            transform: translateX(-60px);
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h2>Accomplishments</h2>
+    </div>
+    <div class="navigator">
+        <div class="imgg">
+            <img src="./images/one.jpg" alt="Loading" width="100" height="100">
+        </div>
+        <ul>
+            <li id="item7"><a href="./start.html">Home</a></li>
+            <li id="item1"><a href="./his.html">History</a></li>
+            <li id="item2"><a href="./work.html">Work</a></li>
+            <li id="item3"><a href="./Accomplishments.html">Accomplishments</a></li>
+            <li id="item4"><a href="./Contributions.html">Contributions to Mankind/society</a></li>
+            <li id="item5"><a href="./Learnings.html">Learnings</a></li>
+            <li id="item6"><a href="./Summary.html">Summary</a></li>
+        </ul>
+    </div>
+
+    <div class="list1">
+        <ul>
+            <li>The article describes the role of Gopal Hari Deshmukh as a social reformer of Maharashtra. His work and his concern for the masses brought him the title of Lokhitwadi. He was the pioneer of reformism in India.</li>
+            <li>He has also been called the morning star of the National Movement in India.<br></li>
+            <li>He denounced the evils of child marriages, dowry and polygamy in his articles.  He played a key role in promoting journalism in Maharashtra as he was associated with ‘Gyan Prakash’, Indu Prakash’ and ‘Lokhitwadi’ periodicals. </li>
+            <li>He started " Gujarati Budhhi-Wardhak Sabha" and ‘Hitechchhu’ in both Gujarati and English </li>
+        </ul>
+    </div>
+    
+
+    <div class="tag">
+        <p>Accomplishments</p>
+    </div>
+</body>
+
+</html>

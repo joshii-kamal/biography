@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Redressed&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            /* background-color: rgb(0, 0, 0); */
+            overflow-x: hidden;
+
+        }
+
+        body::before {
+            content: "";
+            background-image: url('./images/bb4.jpg');
+            height: 100%;
+            width: 93%;
+            position: absolute;
+            z-index: -10;
+            background-repeat: no-repeat;
+            display: flex;
+            margin-left: 50px;
+        }
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .bg {
+            position: absolute;
+            z-index: -1;
+        }
+
+        .navigator {
+            display: flex;
+            background-color: white;
+            font-family: 'Langar', cursive;
+            font-size: small;
+            /* top: -27px; */
+            position: relative;
+            font-weight: bold;
+
+        }
+
+        .navigator .imgg img {
+            border-radius: 50px;
+            height: 45px;
+            width: 45px;
+        }
+
+        .navigator ul {
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+        }
+
+        .navigator ul a {
+            list-style-type: none;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            margin-right: 43px;
+            display: flex;
+            width: 143px;
+            border-radius: 16px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .navigator li a:hover {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+
+
+        .tag {
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            position: fixed;
+            bottom: 6px;
+            right: 50px;
+            border-radius: 9px;
+            width: 90px;
+            text-align: center;
+        }
+
+        .list1 li {
+            background-color: white;
+            margin-top: 13px;
+            grid-template-columns: 500px;
+            width: 500px;
+            margin-left: 700px;
+            border-radius: 20px;
+            padding: 10px;
+            transition: all 1s ease-in-out;
+            display: none;
+        }
+
+        .list1 {
+            margin-top: 90px;
+            font-size: 15px;
+            font-family: 'Langar', cursive;
+        }
+
+        
+
+        .list1 ul li:hover { 
+            transform: scale(1.6);
+            font-weight: bold;
+        }
+
+        .heading {
+            display: flex;
+            top: 60px;
+            left: 200px;
+            position: absolute;
+            border-radius: 20px;
+            width: 120px;
+            font-size: 50px;
+            font-weight: lighter;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .list2{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            top: 70px;
+            right: 120px;
+            position: fixed;
+        }
+        .list2 ul{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            font-size: 20px;     
+        }
+        .list2 .hd{
+            background-color: black;
+            color: white;
+            margin-left: 10px;
+            padding-right: 20px;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .list2 .hd a{
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h2>Work</h2>
+    </div>
+    <div class="navigator">
+        <div class="imgg">
+            <img src="./images/one.jpg" alt="Loading" width="100" height="100">
+        </div>
+        <ul>
+            <li id="item7"><a href="./start.html">Home</a></li>
+            <li id="item1"><a href="./his.html">History</a></li>
+            <li id="item2"><a href="./work.html">Work</a></li>
+            <li id="item3"><a href="./Accomplishments.html">Accomplishments</a></li>
+            <li id="item4"><a href="./Contributions.html">Contributions to Mankind/society</a></li>
+            <li id="item5"><a href="./Learnings.html">Learnings</a></li>
+            <li id="item6"><a href="./Summary.html">Summary</a></li>
+        </ul>
+    </div>
+
+    <div class="list1">
+        <ul>
+            <li id="b">At age 25, Deshmukh started writing articles aimed at social reform in Maharashtra in the weekly
+                Prabhakar  under the pen name Lokhitawadi. In the first two years, he penned 108
+                articles on social reform. That group of articles has come to be known in Marathi literature as
+                Lokhitawadinchi Shatapatre . </li>
+                <li id="a">He retired as a sessions judge. He held many other important positions, including those of the Assistant Inam Commissioner, Joint Judge of Nasik High Court, Member of the Law Council.</li>
+            <li id="c">He promoted emancipation (liberation) and wrote against arranged child
+                marriages, dowry system, and polygamy, all of which were prevalent in India in his times.</li>
+            <li id="d">Deshmukh wrote 35 books on diverse topics, including religious, social, economic, political, historic, and literary matters.
+                <strong>He wrote Panipat war,Kalyog,Jatibhed,Lankecha Itihas.</strong> He also translated some English works into Marathi. Many books are written on him & his work by famous writers.
+
+                His writing include topics like <strong> 1) Panipat 2) History of Gujarat 3) History of Lanka</strong>
+            </li>
+            
+        </ul>
+    </div>
+
+    <div class="list2">
+        <ul>
+            <li id="head2" class="hd"><a onclick="toggleHide(b,head2)">Articles</a></li>
+            <li id="head1" class="hd"><a onclick="toggleHide(a,head1)">Positions</a></li>
+            <li id="head3" class="hd"><a onclick="toggleHide(c,head3)">social work</a></li>
+            <li id="head4" class="hd"><a onclick="toggleHide(d,head4)">Books</a></li>
+            <li><a onclick="toggleHide(e,null)"></a></li>
+
+        </ul>
+    </div>
+    
+    <div class="tag">
+        <p>Work</p>
+    </div>
+   
+
+    <script>
+        function toggleHide(nm,he){
+            let list=nm;
+            let secondList=he;
+            list.style.display='block';
+            secondList.style.display='none';
+        }
+    </script>
+</body>
+
+</html>
